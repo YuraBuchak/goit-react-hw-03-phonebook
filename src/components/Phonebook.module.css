@@ -1,0 +1,160 @@
+.container {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+
+  border: 5px solid blueviolet;
+  border-radius: 20px;
+  background-color: antiquewhite;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.title {
+  font-size: 60px;
+  margin-left: 30px;
+}
+
+.titleFilter {
+  font-size: 30px;
+  margin-left: 135px;
+}
+
+.addForm {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.addContactLabel {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: column;
+  font-size: 20px;
+  font-style: italic;
+  gap: 5px;
+  color: blueviolet;
+  font-weight: bold;
+}
+
+.addContactInput {
+  width: 300px;
+  height: 30px;
+  background-color: black;
+  color: antiquewhite;
+  font-size: larger;
+  border: 3px solid blueviolet;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 5px;
+  outline: none;
+}
+
+.addContactInput:focus {
+  border-color: green;
+}
+
+.addBtn {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+  padding: 5px;
+  font-size: 20px;
+  color: blueviolet;
+  background-color: black;
+  border: 3px solid blueviolet;
+  border-radius: 10px;
+  cursor: pointer;
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: border-color 250ms ease-in, color 250ms ease-in;
+}
+
+.addBtn:hover,
+.addBtn:focus {
+  border-color: green;
+  color: green;
+}
+
+.labelFilter {
+  font-weight: bold;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  font-style: italic;
+  gap: 5px;
+}
+.filterInput {
+  width: 300px;
+  height: 30px;
+  background-color: black;
+  color: antiquewhite;
+  font-size: larger;
+  border: 3px solid blueviolet;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 5px;
+  outline: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.filterInput:focus {
+  border-color: green;
+}
+.filterInput::placeholder {
+  color: blueviolet;
+  font-size: 15px;
+}
+
+.filterInput::placeholder:focus {
+  color: green;
+}
+
+.listItem {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: auto;
+  margin-bottom: 15px;
+  position: relative;
+}
+.deleteBtn {
+  cursor: pointer;
+  display: inline-block;
+  position: absolute;
+
+  right: 30px;
+  width: 30px;
+  padding: 4px;
+  font-size: 13px;
+  font-weight: bold;
+  color: blueviolet;
+  background-color: antiquewhite;
+  border: 3px solid blueviolet;
+  border-radius: 50%;
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: border-color 250ms ease-in, color 250ms ease-in;
+}
+
+.deleteBtn:hover,
+.deleteBtn:focus {
+  border-color: red;
+  color: red;
+}
+
+.number {
+  margin-left: 10px;
+  font-style: oblique;
+}
+
+.labelSerch {
+  margin-left: auto;
+  margin-right: auto;
+}
