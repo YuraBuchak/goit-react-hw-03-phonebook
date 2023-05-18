@@ -1,8 +1,8 @@
 import { Component } from 'react';
 import { nanoid } from 'nanoid';
-import { AddContactForm } from './AddContactForm';
-import { ContactList } from './ContactList';
-import { Filter } from './Filter';
+import { AddContactForm } from './AddContactForm/AddContactForm';
+import { ContactList } from './ContactList/ContactList';
+import { Filter } from './Filter/Filter';
 import css from './Phonebook.module.css';
 
 const ST_KEY = 'ST_KEY';

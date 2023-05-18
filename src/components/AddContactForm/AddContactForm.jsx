@@ -1,6 +1,6 @@
 import { Component } from 'react';
 import PropTypes from 'prop-types';
-import css from './Phonebook.module.css';
+import css from '../Phonebook.module.css';
 
 export class AddContactForm extends Component {
   state = {

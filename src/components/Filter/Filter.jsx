@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import css from './Phonebook.module.css';
+import css from '../Phonebook.module.css';
 
 export const Filter = ({ filter, onChange }) => (
   <label className={css.labelFilter}>
